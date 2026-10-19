@@ -67,6 +67,7 @@ h1, h2 {
     color: #8c3472;
     line-height: 1.25;
     text-shadow: 1px 1px 1px rgba(92, 40, 78, 0.12);
+    text-align: center;
 }
 
 h2 {
@@ -123,6 +124,11 @@ a:focus {
     text-decoration: underline;
 }
 
+section {
+    width: 100%;
+    min-height: 10rem;
+}
+
 #intro {
     background-color: #fff0f8;
     padding: 1.2rem;
@@ -139,6 +145,7 @@ a:focus {
 }
 
 article {
+    min-height: 12rem;
     margin: 1.5rem 0;
     padding: clamp(1rem, 2.5vw, 1.5rem);
     border: 1px solid #edc3dd;
